@@ -22,7 +22,7 @@ FOR2 = gfortran
 AR = ar 
 RANLIB = ranlib 
 OBJ = o
-FFLAGS = $(OPT)  $(DEBUG)  -w -o 
+FFLAGS = $(OPT)  $(DEBUG) -w -o 
 FFLAGS2 =  $(DEBUG) -O3 -w -o 
 VAR_TYPE = 1 # 0 single, 1 double
 
